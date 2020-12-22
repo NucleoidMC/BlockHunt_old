@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "me.lambdaurora.blockhunt.mixin",
+  "compatibilityLevel": "JAVA_11",
+  "mixins": [
+    "EntityPositionS2CPacketAccessor",
+    "EntityS2CPacketAccessor",
+    "EntityVelocityUpdateS2CPacketAccessor",
+    "ServerPlayerEntityMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "blockhunt:blockhunt",
+  "name": "BlockHunt Monastery",
+  "map": {
+    "id": "blockhunt:monastery"
+  },
+  "players": {
+    "min": 1,
+    "threshold": 4,
+    "max": 8
+  }
+}
