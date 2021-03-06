@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 LambdAurora <aurora42lambda@gmail.com>
+ * Copyright (c) 2021 LambdAurora <aurora42lambda@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -15,14 +15,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.lambdaurora.blockhunt.game;
+package dev.lambdaurora.blockhunt.game;
 
 import com.google.common.collect.Multimap;
+import dev.lambdaurora.blockhunt.entity.HiderBlockEntity;
+import dev.lambdaurora.blockhunt.game.config.BlockHuntConfig;
 import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
-import me.lambdaurora.blockhunt.entity.HiderBlockEntity;
-import me.lambdaurora.blockhunt.game.config.BlockHuntConfig;
-import me.lambdaurora.blockhunt.game.map.BlockHuntMap;
+import dev.lambdaurora.blockhunt.game.map.BlockHuntMap;
 import net.minecraft.entity.Entity;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;

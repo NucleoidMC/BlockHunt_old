@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 LambdAurora <aurora42lambda@gmail.com>
+ * Copyright (c) 2021 LambdAurora <aurora42lambda@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -15,11 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.lambdaurora.blockhunt.entity;
+package dev.lambdaurora.blockhunt.entity;
 
-import me.lambdaurora.blockhunt.game.BlockHuntPlayer;
+import dev.lambdaurora.blockhunt.game.BlockHuntPlayer;
 import net.minecraft.block.BlockState;
-import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.entity.decoration.ArmorStandEntity;
 
 public class HiderBlockEntity extends ArmorStandEntity

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 LambdAurora <aurora42lambda@gmail.com>
+ * Copyright (c) 2021 LambdAurora <aurora42lambda@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -15,12 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.lambdaurora.blockhunt.mixin;
+package dev.lambdaurora.blockhunt.mixin;
 
+import dev.lambdaurora.blockhunt.BlockHunt;
+import dev.lambdaurora.blockhunt.game.BlockHuntPlayer;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
-import me.lambdaurora.blockhunt.BlockHunt;
-import me.lambdaurora.blockhunt.game.BlockHuntPlayer;
 import net.minecraft.network.Packet;
 import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
 import net.minecraft.server.network.ServerPlayNetworkHandler;

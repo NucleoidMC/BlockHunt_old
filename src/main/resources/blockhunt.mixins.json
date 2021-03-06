@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "me.lambdaurora.blockhunt.mixin",
+  "package": "dev.lambdaurora.blockhunt.mixin",
   "compatibilityLevel": "JAVA_11",
   "mixins": [
     "EntityPositionS2CPacketAccessor",

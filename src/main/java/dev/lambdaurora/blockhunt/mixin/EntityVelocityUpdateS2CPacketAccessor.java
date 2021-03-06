@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 LambdAurora <aurora42lambda@gmail.com>
+ * Copyright (c) 2021 LambdAurora <aurora42lambda@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -15,36 +15,18 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.lambdaurora.blockhunt.mixin;
+package dev.lambdaurora.blockhunt.mixin;
 
-import net.minecraft.network.packet.s2c.play.EntityPositionS2CPacket;
+import net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Accessor;
 
-@Mixin(EntityPositionS2CPacket.class)
-public interface EntityPositionS2CPacketAccessor
+@Mixin(EntityVelocityUpdateS2CPacket.class)
+public interface EntityVelocityUpdateS2CPacketAccessor
 {
     @Accessor
     void setId(int id);
 
     @Accessor
     int getId();
-
-    @Accessor("x")
-    void setX(double x);
-
-    @Accessor("y")
-    void setY(double y);
-
-    @Accessor("z")
-    void setZ(double z);
-
-    @Accessor
-    void setYaw(byte yaw);
-
-    @Accessor
-    void setPitch(byte pitch);
-
-    @Accessor
-    void setOnGround(boolean onGround);
 }

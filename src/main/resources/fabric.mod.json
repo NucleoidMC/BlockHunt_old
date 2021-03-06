@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.lambdaurora.blockhunt.BlockHunt"
+      "dev.lambdaurora.blockhunt.BlockHunt"
     ]
   },
   "mixins": [
